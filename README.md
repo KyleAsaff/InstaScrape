@@ -6,3 +6,6 @@ Instagram scraper that reads bio information from an array of usernames and matc
 - Matches data against one or more phrases
 - Extracts brand_handle, website, follower count, and following count on positive match
 - Creates a CVS file of companies to contact
+
+# How to run
+ruby scraper.rb

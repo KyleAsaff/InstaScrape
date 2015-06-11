@@ -1,5 +1,5 @@
 # InstaCrawl
-Instagram web crawler that reads bio information and matches data against phrases
+Instagram scraper that reads bio information from an array of usernames and matches them against key phrases
 
 # Features
 - Reads bio information from an Instagram Account

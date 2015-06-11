@@ -29,7 +29,7 @@ HANDLE_LIST.each do |handle|
 
   # Skip if nil
   if (data["entry_data"]["ProfilePage"][0]["user"] rescue nil).nil?
-    puts "<Error> Skipping "+handle+"..."
+    puts "<Error> Skipping "+handle
     next
   end
   puts "Checking "+handle+"..."

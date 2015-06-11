@@ -36,7 +36,7 @@ HANDLE_LIST.each do |handle|
   data = data["entry_data"]["ProfilePage"][0]["user"]
 
   KEY_PHRASES.each do |phrase|
-    # format data for non case-sensitive exact phrase match ignoring punctuation
+    # format data for non case-sensitive exact phrase matching (ignoring punctuation)
     phrase = phrase.downcase.gsub(/[^#a-z0-9\s]/i, '')
     phrase = phrase.center(phrase.length+2)
     stripped = data["biography"].downcase.gsub(/[^#a-z0-9\s]/i, '')

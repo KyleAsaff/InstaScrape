@@ -5,7 +5,7 @@ require 'json'
 require 'csv'
 
 # Base Instagram URL
-BASE_URL = 'https://instagram.com/'
+BASE_URL = "https://instagram.com/"
 
 # List of usernames to scrape
 HANDLE_LIST = ["KyleAsaff", "NBA", "football", "espn", "tsn", "sportsillustrated", "HBO"]

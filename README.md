@@ -1,5 +1,5 @@
 # InstaScrape
-An Instagram scraper that takes an array of Instagram usernames and matches their bios against one or more key phrases and stores the positive matches in a CSV file (output.csv).
+An Instagram scraper that takes an array of Instagram usernames and matches their bios against one or more key phrases and stores the positive matches in a CSV file (output.csv)
 
 # Features
 - Reads bio information from Instagram of accounts in HANDLE_LIST
